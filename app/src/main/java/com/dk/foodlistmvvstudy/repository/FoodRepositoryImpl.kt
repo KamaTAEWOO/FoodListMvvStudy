@@ -1,8 +1,8 @@
-package com.dk.foodlistmvvstudy.service
+package com.dk.foodlistmvvstudy.repository
 
 import com.dk.foodlistmvvstudy.mapper.FoodMapper.toRequest
 import com.dk.foodlistmvvstudy.model.FoodEntity
-import com.dk.foodlistmvvstudy.repository.FoodRepository
+import com.dk.foodlistmvvstudy.service.FoodService
 import javax.inject.Inject
 
 class FoodRepositoryImpl @Inject constructor(

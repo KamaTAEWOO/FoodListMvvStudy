@@ -1,7 +1,7 @@
 package com.dk.foodlistmvvstudy.di
 
 import com.dk.foodlistmvvstudy.repository.FoodRepository
-import com.dk.foodlistmvvstudy.service.FoodRepositoryImpl
+import com.dk.foodlistmvvstudy.repository.FoodRepositoryImpl
 import com.dk.foodlistmvvstudy.service.FoodService
 import dagger.Module
 import dagger.Provides
