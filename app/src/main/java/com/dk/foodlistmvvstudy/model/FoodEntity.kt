@@ -1,5 +1,7 @@
 package com.dk.foodlistmvvstudy.model
 
+// 서버에 있는 Json 파일과 변수를 맞춰줘야 들고 올 수 있음.
+
 data class FoodEntity (
     val cnt: String,
     val OPENDATA_ID: String,
@@ -20,4 +22,4 @@ data class FoodEntity (
     val SMPL_DESC: String,
     val SBW: String,
     val BUS: String
-): java.io.Serializable
+)
