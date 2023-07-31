@@ -13,7 +13,7 @@ class MainViewModel @Inject constructor(
     private val foodRepository: FoodRepository
 ) : ViewModel() {
 
-    private val foodListData = MutableLiveData<String>()
+    val foodListData = MutableLiveData<String>()
 
     fun getFoodList() {
         viewModelScope.launch {
