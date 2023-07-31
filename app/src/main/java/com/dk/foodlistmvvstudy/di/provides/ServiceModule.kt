@@ -1,4 +1,4 @@
-package com.dk.foodlistmvvstudy.di
+package com.dk.foodlistmvvstudy.di.provides
 
 import com.dk.foodlistmvvstudy.service.FoodService
 import dagger.Module

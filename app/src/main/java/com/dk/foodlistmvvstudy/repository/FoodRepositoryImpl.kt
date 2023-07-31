@@ -3,7 +3,9 @@ package com.dk.foodlistmvvstudy.repository
 import com.dk.foodlistmvvstudy.model.FoodEntity
 import com.dk.foodlistmvvstudy.service.FoodService
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class FoodRepositoryImpl @Inject constructor(
     private val foodService: FoodService
 ) : FoodRepository {
